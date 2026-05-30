@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
@@ -6,9 +8,14 @@ import 'app_usage_service.dart';
 class FirebaseApi {
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
   Future<void> iniNotifications() async {
-    await _firebaseMessaging.requestPermission();
-    final token = await _firebaseMessaging.getToken();
-    FirebaseMessaging.onBackgroundMessage(handlebackgroundMessage);
+    if (Platform.isAndroid || Platform.isIOS) {
+      // ضع كود تهيئة Firebase Messaging هنا فقط
+      await _firebaseMessaging.requestPermission();
+      final token = await _firebaseMessaging.getToken();
+      FirebaseMessaging.onBackgroundMessage(handlebackgroundMessage);
+    } else {
+      print("الإشعارات غير مدعومة على هذه المنصة");
+    }
   }
 
   Future<void> handlebackgroundMessage(RemoteMessage message) async {}
