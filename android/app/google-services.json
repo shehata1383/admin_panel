@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "526643428789",
+    "project_id": "eilajaa-29dcf",
+    "storage_bucket": "eilajaa-29dcf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526643428789:android:a719d4b694ebbfefd72dfc",
+        "android_client_info": {
+          "package_name": "com.example.admin_panel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526643428789-95v80p9362vq5li5squucr1q0gn9sj1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABxAtalSE72UKNw-zkdy0QNqMv-k3r_7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526643428789-95v80p9362vq5li5squucr1q0gn9sj1o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526643428789-9o51utaot12vogt6hh24ano6qr46h6dr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eilajaa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526643428789:android:86dc6a45c01a3b28d72dfc",
+        "android_client_info": {
+          "package_name": "com.example.eilajaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526643428789-f8ga8g35ibl6boqvqcmi869qell354d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eilajaa",
+            "certificate_hash": "5f64754aae2043ad6c184e46dea6c491a6c20056"
+          }
+        },
+        {
+          "client_id": "526643428789-95v80p9362vq5li5squucr1q0gn9sj1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABxAtalSE72UKNw-zkdy0QNqMv-k3r_7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526643428789-95v80p9362vq5li5squucr1q0gn9sj1o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526643428789-9o51utaot12vogt6hh24ano6qr46h6dr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eilajaa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526643428789:android:e12f8cf4e203e154d72dfc",
+        "android_client_info": {
+          "package_name": "com.example.pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526643428789-95v80p9362vq5li5squucr1q0gn9sj1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABxAtalSE72UKNw-zkdy0QNqMv-k3r_7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526643428789-95v80p9362vq5li5squucr1q0gn9sj1o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526643428789-9o51utaot12vogt6hh24ano6qr46h6dr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eilajaa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

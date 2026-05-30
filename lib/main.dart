@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:window_manager/window_manager.dart';
 import 'core/functions/notification_api.dart';
 import 'core/helper/get_di.dart';
+import 'firebase_options.dart';
 import 'my_app.dart';
 
 void main() async {
@@ -25,7 +26,9 @@ void main() async {
     await windowManager.show();
     await windowManager.focus();
   });
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform, // هذا السطر ضروري جداً
+  );
   await NotificationApi.instance.initialize();
   await Get.putAsync<SharedPreferences>(
     () async => await SharedPreferences.getInstance(),
